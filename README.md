@@ -75,3 +75,11 @@ const repositorySlug = "test-repo";
 
 pullRequests(config, projectKey, repositorySlug).list(); // Promise
 ```
+
+#### Config usage with access token
+```javascript
+const config = {
+  token: "BBDC-OTcwNzX2xdg1Mzx4Ok2iEqXZyZLhrk3/nDE8A/K1eGJT",
+  url: "https://stash.myhost.com",
+};
+```
